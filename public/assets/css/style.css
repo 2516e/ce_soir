@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+  
+  /* header */
+  
+  header {
+    font-family: "Caveat Brush", sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/bg.jpg");
+    text-transform: uppercase;
+  }
+  
+  .firstrow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  hr.cesoir {
+    border: 5px solid #e53f6f;
+    width: 20px;
+    margin: auto;
+  }
+  
+  header ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  li{
+    padding-left: 30px;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  /* nav */
+  
+  .secondrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .cerfimg {
+    width: 200px;
+    z-index: 1;
+  }
+  
+  .trianglebg {
+    border-top: 0px solid transparent;
+    border-right: 160px solid #e53f6f;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .thirdrow{
+      margin: auto;
+      padding-bottom: 5px;
+  }
+  .arrow {
+    border: solid #e53f6f;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 20px;
+    margin-top: -20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  /* END nav */
+  /* END header */
+  
+  /* main */
+  
+  /* END main */
+  
+  /* footer */
+  
+  /* END footer */
+  
+  /* mediaqueries */
+  
+  @media (max-width: 1199.99px) {
+    .container {
+      width: 80%;
+      background-color: pink;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .container {
+      width: 80%;
+      background-color: lightblue;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .container {
+      width: 100%;
+      background-color: purple;
+    }
+  }
+  /* END mediaqueries */
+  
